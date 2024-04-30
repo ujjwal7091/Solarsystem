@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Resources/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./solarsystem.css">
+    <link rel="stylesheet" href="./solarsystemstar.css">
+    <title>solarsystem</title>
+</head>
+
+<body>
+    <div class="details">
+        <ul>
+            <li class="S"><img src="./sun1.png" width="50px" height="50px">Sun<div class="description">
+                    <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Sun</h2><br>Surface temperature: 5,772 K <br><br>Radius: 696,340 km<br><br>Age: 4.603 billion years<br><br>Gravity: 274 m/s²<br><br>Mass: 1.989 × 10^30 kg<br><br>Distance to Earth: 149.6 million<br>km</pre>
+                </div>
+            </li>
+            <li><img src="./Mercury.png" width="50px" height="50px">Mercury<div class="description">
+                    <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Mercury</h2><br>Distance from Sun: 58 million km <br><br>Orbital period: 88 days<br><br>Length of day: 59d 0h 0m<br><br>Radius: 2,439.7 km<br><br>Gravity: 3.7 m/s²<br><br>Surface area: 74.8 million km²<br><br>Mass: 3.285 × 10^23 kg</pre>
+                </div>
+            </li>
+            <li><img src="./venus.png" width="50px" height="50px">Venus<div class="description">
+                    <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Venus</h2><br>Distance from Sun: 108.2 million km <br><br>Orbital period: 225 days<br><br>Length of day: 243d 0h 0m<br><br>Radius: 6,051.8 km<br><br>Gravity: 8.87 m/s²<br><br>Surface area: 460.2 million km²<br><br>Mass: 4.867 × 10^24 kg</pre>
+                </div>
+            </li>
+            <li><img src="./earth.png" width="50px" height="50px">Earth<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Earth</h2><br>Distance from Sun: 149.6 million km <br><br>Radius: 6,371 km<br><br>Age: 4.543 billion years<br><br>Mass: 5.972 × 10^24 kg<br><br>Gravity: 9.807 m/s²<br><br>Population: 788.84 crores (2021)<br<br>Made by: Ujjwal Sharma</pre>
+            </div></li>
+            <li><img src="./moon.png" width="50px" height="50px">Moon<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Moon</h2><br>Distance to Earth: 384,400 km<br><br>Radius: 1,737.4 km<br><br>Orbital period: 27 days<br><br>Gravity: 1.62 m/s²<br><br>Age: 4.53 billion years<br><br>Surface area: 3.793×107 km2; <br><br>(0.074 of Earth's)</pre>
+            </div></li>
+            <li><img src="./m.png" width="50px" height="50px">Mars<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Mars</h2><br>Distance from Sun: 227.9 million<br>km <br><br>Orbital period: 687 days<br><br>Length of day: 1d 0h 37m<br><br>Radius: 3,389.5 km<br><br>Gravity: 3.71 m/s²</pre>
+            </div></li>
+            <li><img src="./jupiter.png" width="50px" height="50px">Jupiter<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Jupiter</h2><br>Distance from Sun: 778.5 million<br>km <br><br>Orbital period: 225 days<br><br>Length of day: 0d 9h 56m<br><br>Radius: 69,911 km<br><br>Gravity: 24.79 m/s²<br><br>Mass: 1.898 × 10^27 kg</pre>
+            </div></li>
+            <li><img src="./saturn.png" width="50px" height="50px">Saturn<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Saturn</h2><br>Distance from Sun: 1.434 billion<br>km <br><br>Orbital period: 225 days<br><br>Length of day: 0d 10h 34m<br><br>Radius: 58,232 km<br><br>Gravity: 10.44 m/s²<br><br>Surface area: 42.7 billion km²</pre>
+            </div></li>
+            <li><img src="./uranus.png" width="50px" height="50px">Uranus<div class="description">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Uranus</h2><br>Distance from Sun: 2.871 billion<br>km<br><br>Length of day: 0d 17h 14m<br><br>Radius: 25,362 km<br><br>Discovered: 13 March,1781<br><br>Discoverer: William Herschel</pre>
+            </div></li>
+            <li><img src="./neptune.webp" width="50px" height="50px">Neptune <div class="description1"">
+                <pre><h2 style="text-align: center; text-decoration: underline; color: black;">Neptune</h2><br>Distance from Sun: 4.495 billion<br>km <br><br>Gravity: 11.15 m/s²<br><br>Length of day: 0d 16h 6m<br><br>Radius: 24,622 km<br><br>Discovered: 23 September,1846<br><br>Discoverers: Urbain Le Verrier, <br>Johann Gottfried Galle,<br>John Couch Adams</pre>
+            </div></li>
+        </ul>
+    </div>
+    <h1>SOLAR SYSTEM</h1>
+    <H3>by @Riya_Gupta</H3>
+    <!-- <canvas id="canvas">Canvas is not supported in your browser.</canvas> -->
+    <div class="star-anim-1"></div>
+    <div class="star-anim-2"></div>
+    <div class="star-anim-3"></div>
+    <div class="star-anim-4"></div>
+    <div class="star-anim-5"></div>
+    <div class="rocket">
+        <div class="sun"></div>
+        <div class="mercury-outline">
+            <div class="mercury">
+                <p>Mercury</p>
+            </div>
+        </div>
+        <div class="venus-outline-1">
+            <div class="venus">
+                <p>Venus</p>
+            </div>
+        </div>
+        <div class="earth-outline-1">
+            <div class="earth">
+                <div class="earth-circle">
+                    <div class="earth-inner"></div>
+                </div>
+                <p>Earth</p>
+            </div>
+        </div>
+        <div class="mars-outline-1">
+            <div class="mars">
+                <p>Mars</p>
+            </div>
+        </div>
+        <div class="jupiter-outline-1">
+            <div class="jupiter">
+                <p>Jupiter</p>
+            </div>
+        </div>
+        <div class="satarn-outline-1">
+            <div class="satarn">
+                <p>satrn</p>
+            </div>
+        </div>
+        <div class="urans-outline-1">
+            <div class="uranus">
+                <p>Uranus</p>
+            </div>
+        </div>
+        <div class="neptune-outline-1">
+            <div class="neptune">
+                <p>Neptune</p>
+            </div>
+        </div>
+    </div>
+    <script src="./solarsystem.js"></script> 
+</body>
+
+</html>
