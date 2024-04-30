@@ -1,0 +1,275 @@
+body {
+    background-image: url("./Background.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+  }
+  
+  /** STARS **/
+  
+  .star-anim-1 {
+    z-index: 2000;
+    width: 1px;
+    height: 1px;
+    background: -webkit-linear-gradient(
+      -135deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: shooting-star-1 10s linear infinite;
+    animation-delay: 5s;
+  }
+  
+  .star-anim-2 {
+    z-index: 2000;
+    width: 1px;
+    height: 1px;
+    background: -webkit-linear-gradient(
+      -135deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: shooting-star-2 10s linear infinite;
+    animation-delay: 2s;
+  }
+  
+  .star-anim-3 {
+    z-index: 2000;
+    width: 1px;
+    height: 1px;
+    background: -webkit-linear-gradient(
+      -135deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: shooting-star-3 10s linear infinite;
+    animation-delay: 7s;
+  }
+  
+  .star-anim-4 {
+    z-index: 2000;
+    width: 1px;
+    height: 1px;
+    background: -webkit-linear-gradient(
+      -135deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: shooting-star-4 10s linear infinite;
+    animation-delay: 11s;
+  }
+  
+  .star-anim-5 {
+    z-index: 5000;
+    width: 1px;
+    height: 1px;
+    background: -webkit-linear-gradient(
+      -135deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: shooting-star-5 10s linear infinite;
+    animation-delay: 13s;
+  }
+  
+  @keyframes shooting-star-1 {
+    0% {
+      opacity: 1;
+      transform: translate(80px, 565px) rotate(45deg);
+      width: 1px;
+    }
+    12% {
+      transform: translate(279px, 1004px) rotate(45deg);
+      width: 400px;
+      opacity: 1;
+    }
+  
+    55% {
+      transform: translate(479px, 1204px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translate(479px, 1204px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes shooting-star-2 {
+    0% {
+      opacity: 1;
+      transform: translate(0px, 0px) rotate(45deg);
+      width: 1px;
+    }
+    15% {
+      transform: translate(1100px, 1100px) rotate(45deg);
+      width: 400px;
+      opacity: 1;
+    }
+    17% {
+      transform: translate(1200px, 1200px) rotate(45deg);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(1200px, 1200px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes shooting-star-3 {
+    0% {
+      opacity: 1;
+      transform: translate(340px, 175px) rotate(45deg);
+      width: 1px;
+    }
+    15% {
+      transform: translate(1440px, 1475px) rotate(45deg);
+      width: 400px;
+      opacity: 1;
+    }
+    17% {
+      transform: translate(1640px, 1675px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+    100% {
+      transform: translate(1640px, 1675px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes shooting-star-4 {
+    0% {
+      opacity: 1;
+      transform: translate(423px, -256px) rotate(45deg);
+      width: 1px;
+    }
+    11% {
+      transform: translate(1382px, 903px) rotate(45deg);
+      width: 400px;
+      opacity: 1;
+    }
+    13% {
+      transform: translate(1582px, 1103px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+    100% {
+      transform: translate(1582px, 1103px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes shooting-star-5 {
+    0% {
+      opacity: 1;
+      transform: translate(1131px, 124px) rotate(45deg);
+      width: 1px;
+    }
+    13% {
+      transform: translate(1657px, 850px) rotate(45deg);
+      width: 400px;
+      opacity: 1;
+    }
+    15% {
+      transform: translate(1757px, 950px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+    100% {
+      transform: translate(1757px, 950px) rotate(45deg);
+      width: 400px;
+      opacity: 0;
+    }
+  }
+  
+  h1,
+  h3 {
+    font-size: medium;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -75px;
+  }
+  li {
+      position: relative;
+      left: 1510px;
+      top: 50px;
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .description {
+      display: none;
+      position: absolute;
+      left: -300px; /* Adjust as needed */
+      top: 0;
+      width: 250px;
+      font-weight: 800;
+      font-size: 12px;
+      background-image: linear-gradient(to top,#fc4a1a,#f7b733);
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #000;
+      transition: all 0.3s ease-in;
+      overflow-wrap: break-word;
+    }
+  .description1 {
+      display: none;
+      position: absolute;
+      left: -300px; /* Adjust as needed */
+      top: -210px;
+      width: 250px;
+      font-weight: 800;
+      font-size: 12px;
+      background-image: linear-gradient(to top,#fc4a1a,#f7b733);
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #000;
+      transition: all 0.3s ease-in;
+      overflow-wrap: break-word;
+    }
+  
+    
+    li:hover .description{
+      display: block;
+      
+      
+  }
+  li:hover .description1{
+      
+      display: block;
+  }
+    pre{
+      color: #16173b;
+    }
+  
